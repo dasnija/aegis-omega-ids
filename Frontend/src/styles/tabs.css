@@ -1,0 +1,294 @@
+/* ================================
+   LAYER PANELS
+================================ */
+.layer-panels {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.layer-panel {
+  background: linear-gradient(180deg, #1e2230, #181b26);
+  padding: 20px;
+  border-radius: 14px;
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.35);
+}
+
+.layer-panel h3 {
+  margin-top: 0;
+  color: var(--text-light);
+  font-weight: 700;
+}
+
+.layer-description {
+  font-size: 13px;
+  color: var(--text-muted);
+  margin-bottom: 15px;
+}
+
+/* ================================
+   LAYER STATS
+================================ */
+.layer-stats {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.stat {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 12px;
+  background: rgba(0, 0, 0, 0.35);
+  border-radius: 8px;
+  border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.stat .label {
+  font-weight: 500;
+  color: var(--text-muted);
+}
+
+.stat .value {
+  font-weight: 700;
+  color: var(--text-light);
+}
+
+/* ================================
+   PACKET INVESTIGATION
+================================ */
+.packet-investigation {
+  display: grid;
+  grid-template-columns: 260px 1fr 360px;
+  gap: 20px;
+}
+
+/* Filters */
+.filters-sidebar {
+  background: linear-gradient(180deg, #1e2230, #181b26);
+  padding: 15px;
+  border-radius: 14px;
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  height: fit-content;
+}
+
+.filter-group {
+  margin-bottom: 15px;
+}
+
+.filter-group label {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 6px;
+  font-size: 12px;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.filter-group input,
+.filter-group select {
+  width: 100%;
+  padding: 8px 10px;
+  border-radius: 8px;
+  font-size: 13px;
+  background: rgba(0, 0, 0, 0.4);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  color: var(--text-light);
+}
+
+/* Results */
+.results-section {
+  overflow-x: auto;
+}
+
+/* Detail Panel */
+.detail-panel {
+  background: linear-gradient(180deg, #1e2230, #181b26);
+  padding: 15px;
+  border-radius: 14px;
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  max-height: 600px;
+  overflow-y: auto;
+}
+
+.detail-section {
+  margin-bottom: 15px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.detail-section h4 {
+  margin-bottom: 8px;
+  color: var(--text-light);
+  font-size: 14px;
+}
+
+.detail-section p {
+  margin: 4px 0;
+  font-size: 13px;
+  color: var(--text-muted);
+}
+
+/* ================================
+   AGREEMENT STATS
+================================ */
+.agreement-stats {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  margin: 20px 0;
+}
+
+.stat-box {
+  background: linear-gradient(180deg, #1e2230, #181b26);
+  padding: 20px;
+  border-radius: 14px;
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  text-align: center;
+}
+
+.stat-box h3 {
+  margin-bottom: 8px;
+  font-size: 12px;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+.big-number {
+  font-size: 36px;
+  font-weight: 800;
+  color: var(--text-light);
+}
+
+.count {
+  font-size: 12px;
+  color: var(--text-muted);
+}
+
+/* ================================
+   THREAT SECTIONS
+================================ */
+.threat-sections {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin-top: 20px;
+}
+
+.threat-section {
+  background: linear-gradient(180deg, #1e2230, #181b26);
+  padding: 20px;
+  border-radius: 14px;
+  border: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+/* ================================
+   PERFORMANCE METRICS
+================================ */
+.metrics-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 20px;
+  margin: 20px 0;
+}
+
+.metric-card {
+  background: linear-gradient(180deg, #1e2230, #181b26);
+  padding: 15px;
+  border-radius: 14px;
+  border: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+.metric-card h4 {
+  margin-bottom: 8px;
+  font-size: 12px;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+
+.metric-value {
+  font-size: 24px;
+  font-weight: 800;
+  color: var(--text-light);
+  margin-bottom: 10px;
+}
+
+.metric-bar {
+  height: 6px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.metric-fill {
+  height: 100%;
+  background: linear-gradient(90deg, #4f46e5, #10b981);
+  transition: width 0.3s ease;
+}
+
+/* ================================
+   CONFUSION MATRIX
+================================ */
+.confusion-section {
+  margin: 20px 0;
+  padding: 20px;
+  background: linear-gradient(180deg, #1e2230, #181b26);
+  border-radius: 14px;
+  border: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+.confusion-matrix {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+  margin-top: 15px;
+  max-width: 320px;
+}
+
+.matrix-cell {
+  padding: 20px;
+  border-radius: 12px;
+  text-align: center;
+  font-weight: 800;
+  color: white;
+}
+
+.matrix-cell.tp {
+  background: #22c55e;
+}
+
+.matrix-cell.tn {
+  background: #16a34a;
+}
+
+.matrix-cell.fp {
+  background: #f59e0b;
+}
+
+.matrix-cell.fn {
+  background: #ef4444;
+}
+
+.matrix-cell .label {
+  font-size: 12px;
+  margin-bottom: 4px;
+  opacity: 0.9;
+}
+
+.matrix-cell .value {
+  font-size: 20px;
+}
+
+/* ================================
+   RESPONSIVE
+================================ */
+@media (max-width: 1024px) {
+  .packet-investigation {
+    grid-template-columns: 1fr;
+  }
+}

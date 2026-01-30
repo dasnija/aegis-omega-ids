@@ -1,0 +1,213 @@
+/* Threat Analysis Styles */
+.threat-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    height: 100%;
+}
+
+.controls-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--bg-card);
+    padding: 1rem;
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.filter-group {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.filter-btn {
+    background: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    color: var(--text-muted);
+    padding: 0.5rem 1rem;
+    border-radius: 6px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    transition: all 0.2s ease;
+}
+
+.filter-btn:hover {
+    background: rgba(255, 255, 255, 0.05);
+    color: var(--text-light);
+}
+
+.filter-btn.active {
+    background: var(--primary-color);
+    border-color: var(--primary-color);
+    color: white;
+}
+
+.filter-btn.danger.active {
+    background: #ef4444;
+    border-color: #ef4444;
+}
+
+.filter-btn.success.active {
+    background: #10b981;
+    border-color: #10b981;
+}
+
+.search-box {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.search-icon {
+    position: absolute;
+    left: 10px;
+    color: var(--text-muted);
+}
+
+.search-box input {
+    background: rgba(0, 0, 0, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 6px;
+    padding: 0.5rem 1rem 0.5rem 2.2rem;
+    color: white;
+    width: 250px;
+    outline: none;
+}
+
+.search-box input:focus {
+    border-color: var(--primary-color);
+}
+
+/* Table Styles */
+.table-container {
+    background-color: var(--bg-card);
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    overflow-x: auto;
+    flex: 1;
+}
+
+.threat-table {
+    width: 100%;
+    border-collapse: collapse;
+    min-width: 800px;
+}
+
+.threat-table th {
+    background-color: rgba(255, 255, 255, 0.05);
+    padding: 1rem;
+    text-align: left;
+    color: var(--text-muted);
+    font-weight: 600;
+    font-size: 0.9rem;
+    position: sticky;
+    top: 0;
+}
+
+.threat-table td {
+    padding: 1rem;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+    color: var(--text-light);
+    font-size: 0.95rem;
+}
+
+.threat-table tr:hover {
+    background-color: rgba(255, 255, 255, 0.02);
+}
+
+.row-malicious {
+    background-color: rgba(239, 68, 68, 0.05);
+}
+
+.row-malicious:hover {
+    background-color: rgba(239, 68, 68, 0.1);
+}
+
+.mono-font {
+    font-family: 'Courier New', monospace;
+}
+
+.status-badge {
+    padding: 0.25rem 0.75rem;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.status-badge.danger {
+    background-color: rgba(239, 68, 68, 0.2);
+    color: #fca5a5;
+    border: 1px solid rgba(239, 68, 68, 0.3);
+}
+
+.status-badge.success {
+    background-color: rgba(16, 185, 129, 0.2);
+    color: #6ee7b7;
+    border: 1px solid rgba(16, 185, 129, 0.3);
+}
+
+.attack-tag {
+    background-color: rgba(245, 158, 11, 0.2);
+    color: #fcd34d;
+    padding: 0.2rem 0.5rem;
+    border-radius: 4px;
+    font-size: 0.85rem;
+}
+
+.confidence-meter {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 0.85rem;
+}
+
+.confidence-fill {
+    height: 4px;
+    background-color: #718096;
+    border-radius: 2px;
+    flex: 1;
+    min-width: 50px;
+}
+
+.btn-xs {
+    padding: 0.25rem 0.5rem;
+    font-size: 0.8rem;
+    background: rgba(255, 255, 255, 0.1);
+    border: none;
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+}
+
+.btn-xs:hover {
+    background: var(--primary-color);
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin-top: auto;
+    padding: 1rem;
+}
+
+.pagination button {
+    background: var(--bg-card);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.pagination button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}

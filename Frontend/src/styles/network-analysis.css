@@ -1,0 +1,27 @@
+/* Network Analysis Styles */
+.network-container {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.charts-row {
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.chart-card.wide {
+    flex: 1;
+    min-width: 400px;
+}
+
+@media (max-width: 768px) {
+    .charts-row {
+        flex-direction: column;
+    }
+
+    .chart-card.wide {
+        min-width: 100%;
+    }
+}

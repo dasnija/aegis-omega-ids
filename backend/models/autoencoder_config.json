@@ -1,0 +1,12 @@
+{
+  "input_dim": 68,
+  "encoding_dims": [
+    64,
+    32
+  ],
+  "noise_factor": 0.15,
+  "dropout_rate": 0.05,
+  "l1_reg": 1e-05,
+  "l2_reg": 0.0001,
+  "threshold": 0.023670486137270928
+}
